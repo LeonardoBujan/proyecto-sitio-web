@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+/* estilos de fondos */
+.bg-yellow {
+    background-color: #EAC926;
+}
+
+.bg-blue {
+    background-color: #03264C;
+}
+
+.bg-lightblue {
+    background-color: #1259c3;
+}
+
+/* estilos de texto */
+.text-size-sm {
+    font-size: 16px;
+}
+
+.text-size-md {
+    font-size: 18px;
+}
+
+.text-size-lg {
+    font-size: 24px;
+}
+
+.text-aling-center {
+    text-align: center;
+}
+
+.text-aling-left {
+    text-align: left;
+}
+
+.text-color-lightgrey {
+    color: #ebebeb;
+}
+
+.text-color-darkgray {
+    color: #666;
+}
+
+.text-color-green {
+    color: #39b54a;
+}
+
+.text-color-black {
+    color: #000;
+}
+
+.text-color-blue {
+    color: #03264C;
+}
+
+.text-color-white {
+    color: #fff;
+}
+
+.text-color-lightblue {
+    color: #1259c3;
+}
+
+.text-color-yellow {
+    color: #EAC926;
+}
+
+/* estilos de enlaces */
+.decoration-bullets {
+    list-style: none;
+}
+
+.decoration-link-none {
+    text-decoration: none;
+}
+
+/* estilos de iconos */
+.size-icon {
+    font-size: 2em;
+}
+
+/* margin and padding de elementos */
+.margin-icon-bottom {
+    margin-bottom: 10px;
+}
+
+.padding-sm {
+    padding: 12px;
+}
+
+/* display de elementos */
+.display-inline-block {
+    display: inline-block;
+}
+
+.display-inline {
+    display: inline;
+}
+
+/* estilos de box */
+.border-radius-sm {
+    border-radius: 5px;
+}
