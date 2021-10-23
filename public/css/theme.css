@@ -1,11 +1,13 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
+    background-color: #ebebeb;    
 }
 /* estilos de fondos */
 .bg-yellow {
@@ -18,6 +20,14 @@ html {
 
 .bg-lightblue {
     background-color: #1259c3;
+}
+
+.bg-lightgrey {
+    background-color: #ebebeb;
+}
+
+.bg-white {
+    background-color: #fff;
 }
 
 /* estilos de texto */
@@ -87,13 +97,48 @@ html {
     font-size: 2em;
 }
 
-/* margin and padding de elementos */
-.margin-icon-bottom {
+/* margin de elementos */
+.mb-10 {
     margin-bottom: 10px;
 }
 
+.margin-main {
+    margin: 0 auto;
+    width: 90vw;
+}
+
+.margin-center {
+    margin: 0 auto;
+}
+
+.mtb-20px {
+    margin: 20px 0;
+}
+
+/* padding de elementos */
 .padding-sm {
     padding: 12px;
+}
+
+.pd-15px {
+    padding: 15px;
+}
+
+.pd-tb40-lr60 {
+    padding: 40px 60px 0 60px;
+}
+
+.pt-40px {
+    padding-top: 40px;
+}
+
+.pb-20px {
+    padding-bottom: 20px;
+}
+
+.plr-10px {
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /* display de elementos */
@@ -108,4 +153,14 @@ html {
 /* estilos de box */
 .border-radius-sm {
     border-radius: 5px;
+}
+
+.border-div {
+    border-top: 1px solid #ebebeb;
+}
+
+.style-truck {
+    border: 1px solid #39b54a;
+    border-radius: 25px;
+    padding: 5px;
 }
