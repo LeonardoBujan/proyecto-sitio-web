@@ -9,78 +9,45 @@ html {
     font-size: 12px;
     background-color: #ebebeb;    
 }
-/* estilos de fondos */
-.bg-yellow {
-    background-color: #EAC926;
+
+.main-header {
+    background-color: #eac926;
+    padding: 15px;
 }
 
-.bg-blue {
-    background-color: #03264C;
+.logo {
+    width: 150px;
 }
 
-.bg-lightblue {
+.copy-header{
+    font-weight: 400;
+}
+
+.hamburguer-button { /* estilos de menu hamburguesa */
     background-color: #1259c3;
-}
-
-.bg-lightgrey {
-    background-color: #ebebeb;
-}
-
-.bg-white {
-    background-color: #fff;
-}
-
-/* estilos de texto */
-.text-size-sm {
-    font-size: 16px;
-}
-
-.text-size-md {
-    font-size: 18px;
-}
-
-.text-size-lg {
-    font-size: 24px;
-}
-
-.text-aling-center {
+    color: #ffffff;
+    display: block;
+    max-width: 50px;
+    padding: 5px 0;
+    border-radius: 8px;    
     text-align: center;
+    font-size: 17px;
+    margin: auto;
 }
 
-.text-aling-left {
-    text-align: left;
+.main-navbar {
+    display: none;
 }
 
-.text-color-lightgrey {
-    color: #ebebeb;
+.main-navbar ul {
+    list-style: none;
 }
 
-.text-color-darkgray {
-    color: #666;
-}
-
-.text-color-green {
-    color: #39b54a;
-}
-
-.text-color-black {
-    color: #000;
-}
-
-.text-color-blue {
-    color: #03264C;
-}
-
-.text-color-white {
-    color: #fff;
-}
-
-.text-color-lightblue {
-    color: #1259c3;
-}
-
-.text-color-yellow {
-    color: #EAC926;
+.main-navbar a {
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px 0;
 }
 
 /* estilos de enlaces */
@@ -107,8 +74,12 @@ html {
     width: 90vw;
 }
 
-.margin-center {
+.margin-center-hor {
     margin: 0 auto;
+}
+
+.margin-center-ver {
+    margin: auto 0;
 }
 
 .mtb-20px {
@@ -146,8 +117,11 @@ html {
     display: inline-block;
 }
 
-.display-inline {
-    display: inline;
+/* estilo de menú hamburguesa */
+.burger-menu {
+    display: block;
+    width: 50px;
+    text-align: center;
 }
 
 /* estilos de box */
@@ -157,6 +131,10 @@ html {
 
 .border-div {
     border-top: 1px solid #ebebeb;
+}
+
+.border-none {
+    border:none;
 }
 
 .style-truck {

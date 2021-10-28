@@ -1,0 +1,73 @@
+/* estilos de fondos */
+.bg-yellow {
+  background-color: #eac926;
+}
+
+.bg-blue {
+  background-color: #03264c;
+}
+
+.bg-lightblue {
+  background-color: #1259c3;
+}
+
+.bg-lightgrey {
+  background-color: #ebebeb;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+/* estilos de texto */
+.text-size-sm {
+  font-size: 16px;
+}
+
+.text-size-md {
+  font-size: 18px;
+}
+
+.text-size-lg {
+  font-size: 24px;
+}
+
+.text-aling-center {
+  text-align: center;
+}
+
+.text-aling-left {
+  text-align: left;
+}
+
+.text-color-lightgrey {
+  color: #ebebeb;
+}
+
+.text-color-darkgray {
+  color: #666;
+}
+
+.text-color-green {
+  color: #39b54a;
+}
+
+.text-color-black {
+  color: #000;
+}
+
+.text-color-blue {
+  color: #03264c;
+}
+
+.text-color-white {
+  color: #fff;
+}
+
+.text-color-lightblue {
+  color: #1259c3;
+}
+
+.text-color-yellow {
+  color: #eac926;
+}
