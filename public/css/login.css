@@ -46,3 +46,7 @@
     border: none;
     background-color: #1259c3;
 }
+
+.button:hover {
+    background-color: #0022AA;
+}
