@@ -1,0 +1,62 @@
+/* estilos para DESKTOPS */
+
+@media (min-width: 1200px){
+
+    .main-header-top, .main-navbar {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .logo {
+        width: 300px;
+    }
+
+    .copy-header {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .main-navbar {
+        margin-top: 30px;
+    }
+
+    .left-navbar {
+        display: flex;
+        justify-content: space-between;
+        width: 30%;
+        font-size: 15px;
+    }
+
+    .right-navbar {
+        display: flex;
+        justify-content: space-between;
+        width: 30%;
+        font-size: 15px;
+    }
+
+    .hamburguer-button { /* estilos de menu hamburguesa */
+        display: none;
+    }
+
+    .style-title {
+        text-align: left;
+    }
+
+    .grid-product {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .wrapper {
+        width: 25%;
+        padding: 10px;
+    }
+
+    .box-card-product {
+        box-shadow: 0px 0px 10px rgb(100,100,100);
+    }
+
+    .style-text-product {
+        display: none;
+    }
+}

@@ -1,0 +1,44 @@
+.form {
+    padding: 15px;
+}
+
+.label {
+    font-size: 15px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-text {
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 30px;
+    padding: 10px;
+}
+
+.input-date {
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 30px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.user-profile {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.category {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.label-category {
+    width: 50%;
+}

@@ -1,0 +1,82 @@
+/* estilos para TABLETS */
+
+@media (min-width: 481px){
+    
+    .logo {
+        width: 150px;
+        margin-bottom: 0;
+    }
+
+    .main-header-top {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+
+    .height-input-top-bar {
+        height: 30px;
+        margin: 0 15px;
+    }
+
+    .box-input-search {
+        margin-bottom: 0;
+    }
+
+    .box-copy-header {
+        width: 50%;
+        align-self: center;
+    }
+
+    .height-input-search {
+        height: 100%;
+    }
+
+    .copy-header {
+        width: 100%;
+        text-align: right;
+    }
+
+    .main-navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .left-navbar {
+        display: flex;
+        justify-content: space-between;
+        width: 40%;
+    }
+
+    .right-navbar {
+        display: flex;
+        justify-content: space-between;
+        width: 40%;
+    }
+
+    .hamburguer-button { /* estilos de menu hamburguesa */
+        display: none;
+    }
+
+    .style-title {
+        text-align: left;
+        font-size: 20px;
+    }
+
+    .grid-product {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .wrapper {
+        width: 50%;
+        padding: 10px;
+    }
+
+    .box-card-product {        
+        box-shadow: 0px 0px 10px rgb(100,100,100);
+    }
+
+    .style-text-product {
+        display: none;
+    }
+}
