@@ -1,11 +1,22 @@
+.main-header {
+    position: fixed;
+    top: 0;
+}
+
 .form {
+    margin-top: 105px;
     padding: 15px;
 }
 
+.form-container {
+    margin-bottom: 15px;
+}
+
 .label {
-    font-size: 15px;
+    font-size: 16px;
     display: block;
     margin-bottom: 5px;
+    font-weight: bold;
 }
 
 .input-text {
@@ -29,16 +40,63 @@
 
 .user-profile {
     display: flex;
-    flex-wrap: nowrap;
     justify-content: space-around;
+}
+
+.user-profile label {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.user-profile input {
+    margin-top: 10px;
+    align-self: center;
 }
 
 .category {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-start;
 }
 
 .label-category {
-    width: 50%;
+    width: 35%;    
+    font-size: 15px;
+    display: block;
+}
+
+.form-container input {
+    align-self: center;
+}
+
+.category-container {
+    margin-bottom: 20px;
+}
+
+.input-file{
+    font-size: 15px;
+}
+
+.input-pass {
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 30px;
+    padding: 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button {
+    font-size: 15px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    color: #ffffff;
+    border: none;
+    background-color: #1259c3;
 }

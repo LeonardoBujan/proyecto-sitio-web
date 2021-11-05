@@ -43,14 +43,16 @@
 
     .left-navbar {
         display: flex;
-        justify-content: space-between;
-        width: 40%;
+        justify-content: space-evenly;
+        width: 50%;
+        font-size: 10px;
     }
 
     .right-navbar {
         display: flex;
-        justify-content: space-between;
-        width: 40%;
+        justify-content: space-evenly;
+        width: 50%;
+        font-size: 10px;
     }
 
     .hamburguer-button { /* estilos de menu hamburguesa */

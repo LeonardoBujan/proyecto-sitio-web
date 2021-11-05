@@ -63,80 +63,84 @@
     <!-- Inicio del form -->
     <form action="/" method="get" class="form">
 
-        <div>
+        <div class="form-container">
             <label for="name" class="label">Nombre y Apellido</label>
             <input type="text" name="name" class="input-text">
         </div>
 
-        <div>
+        <div class="form-container">
             <label for="user-name" class="label">Nombre de usuario</label>
             <input type="text" name="user-name" class="input-text">
         </div>
 
-        <div>
+        <div class="form-container">
             <label for="date" class="label">Fecha de nacimiento</label>
             <input type="date" name="date" class="input-date">
         </div>
 
-        <div>
+        <div class="form-container">
             <label for="address" class="label">Domicilio</label>
             <input type="text" name="address" class="input-text">
         </div>
 
-        <div class="user-profile">
-            <label for="user-profile" class="label">Perfil de Usuario</label>
-            <div>
-                <label for="buy">Comprar</label>
-                <input type="radio" name="user-profile" value="buy" checked>
-            </div>
-            <div>
-                <label for="sale">Vender</label>
-                <input type="radio" name="user-profile" value="sale">
+        <div class="form-container">
+            <label for="user-profile" class="label">Perfil de Usuario</label>            
+            <div class="user-profile">
+               
+                    <label for="buy">Comprador</label>
+                    <input type="radio" name="user-profile" value="buy" checked>
+               
+                    <label for="sale">Vendedor</label>
+                    <input type="radio" name="user-profile" value="sale">
+               
             </div>
         </div>
 
-        <div>
-            <label for="category" class="label">Categorías de interés</label>
-            <div class="category label">
+        <div class="form-container">
+
+            <label for="category" class="category-container label">Categorías de interés</label>
+            
+            <div class="category-container category">
                 <label for="electro" class="label-category">Electro</label>
                 <input type="checkbox" name="categoria" value="electro">
             </div>
-            <div class="category label">
+            <div class="category-container category">
                 <label for="moda" class="label-category">Moda</label>
                 <input type="checkbox" name="categoria" value="moda">
             </div>
-            <div class="category label">
+            <div class="category-container category">
                 <label for="hogar" class="label-category">Hogar</label>
                 <input type="checkbox" name="categoria" value="hogar">
             </div>
-            <div class="category label">
+            <div class="category-container category">
                 <label for="jugueteria" class="label-category">Juguetería</label>
                 <input type="checkbox" name="categoria" value="jugueteria">
             </div>
-            <div class="category label">
+            <div class="category-container category">
                 <label for="vida-sana" class="label-category">Vida sana</label>
                 <input type="checkbox" name="categoria" value="vida-sana">
             </div>
         </div>
 
-        <div>
+        <div class="form-container">
             <label for="foto" class="label">Foto de usuario</label>
             <input type="file" accept=".jpg" class="input-file">
         </div>
 
-        <div>
+        <div class="form-container">
             <label for="password" class="label">Contraseña</label>
             <input type="password" name="password" value="" class="input-pass">
         </div>
 
-        <div>
+        <div class="form-container">
             <label for="re-password" class="label">Confirmar contraseña</label>
             <input type="password" name="re-password" value="" class="input-pass">
         </div>
-
-        <button type="reset">Borrar</button>
-
-        <button type="submit">Enviar</button>
+        
+        <div class="button-container">
+            <button type="reset" class="button">Borrar</button>    
+            <button type="submit" class="button">Enviar</button>
+        </div>
 
     </form>
 
