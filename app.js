@@ -4,9 +4,7 @@ const app = express();
 const path = require("path");
 
 //localhost:3000
-app.listen(process.env.PORT || 3000, ()=>{
-    console.log("servido encendido");
-});
+app.listen(process.env.PORT || 3000);
 
 app.use(express.static(path.join(__dirname,"public")));
 
