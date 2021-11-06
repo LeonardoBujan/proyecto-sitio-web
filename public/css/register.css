@@ -28,6 +28,14 @@
     padding: 10px;
 }
 
+.input-text:focus {
+    outline: none;
+}
+
+.input-text:active {
+    outline: none;
+}
+
 .input-date {
     border: none;
     border-radius: 5px;
@@ -36,6 +44,14 @@
     height: 30px;
     padding: 10px;
     font-size: 15px;
+}
+
+.input-date:focus {
+    outline: none;
+}
+
+.input-date:active {
+    outline: none;
 }
 
 .user-profile {
@@ -84,6 +100,14 @@
     margin-bottom: 10px;
     height: 30px;
     padding: 10px;
+}
+
+.input-pass:focus {
+    outline: none;
+}
+
+.input-pass:active {
+    outline: none;
 }
 
 .button-container {

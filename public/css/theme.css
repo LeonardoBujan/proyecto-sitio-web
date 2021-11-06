@@ -45,6 +45,14 @@ html {
     border-radius: 5px;
 }
 
+.input-search:focus {
+    outline: none;
+}
+
+.input-search:active {
+    outline: none;
+}
+
 .box-copy-header {
     width: 100%;
     text-align: center;
@@ -163,6 +171,14 @@ html {
     font-weight: 200;
 }
 
+.footer-page {
+    padding-bottom: 25px;
+}
+
+.copyright {
+    margin-top: 25px;
+}
+
 .margin-center-hor {
     margin: 0 auto;
 }
@@ -211,11 +227,6 @@ html {
     padding-right: 5px;
 }
 
-
-/* display de elementos */
-.display-inline-block {
-    display: inline-block;
-}
 
 /* estilo de menú hamburguesa */
 .burger-menu {

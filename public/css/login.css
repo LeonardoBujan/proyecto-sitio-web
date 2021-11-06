@@ -4,7 +4,7 @@
 }
 
 .form {
-    margin-top: 105px;
+    margin-top: 180px;
     padding: 15px;
 }
 
@@ -28,6 +28,14 @@
     padding: 10px;
 }
 
+.input-text:focus {
+    outline: none;
+}
+
+.input-text:active {
+    outline: none;
+}
+
 .input-pass {
     border: none;
     border-radius: 5px;
@@ -35,6 +43,14 @@
     margin-bottom: 10px;
     height: 30px;
     padding: 10px;
+}
+
+.input-pass:focus {
+    outline: none;
+}
+
+.input-pass:active {
+    outline: none;
 }
 
 .button {
